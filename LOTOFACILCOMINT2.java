@@ -36,7 +36,7 @@ public class LOTOFACILCOMINT2 extends JFrame {
                 if (aposta1 >= 0 && aposta1 <= 100 && aposta1 == valor) {
                     JOptionPane.showMessageDialog(null, "Você ganhou R$ 1.000,00 reais.");
                 } else if (aposta1 < 0 || aposta1 > 100) {
-                    JOptionPane.showMessageDialog(null, "O número digitado de estar entre 0 e 100");
+                    JOptionPane.showMessageDialog(null, "O número digitado deve estar entre 0 e 100");
                 } else {
                     JOptionPane.showMessageDialog(null, "Que pena, o numero sorteado foi: " + valor);
                 }
